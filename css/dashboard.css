@@ -116,6 +116,22 @@
     display: inline-block;
 }
 
+
+
+
+
+.sampleDiv2{
+    width: 100%;
+    height: auto;
+    align-items: middle;
+    background-color: rgba(254, 220, 19,0.2);
+    padding: 70px;
+    margin: 50px 20px;
+    display: inline-block;
+}
+
+
+
 img{
     height: auto;
 }
@@ -528,7 +544,8 @@ body>.navbar-collapse .nav li .nav-link i {
 
 .sidebar .nav li:hover .nav-link,
 body>.navbar-collapse .nav li:hover .nav-link {
-    background: rgba(254, 220, 19,0.6);
+    /* background: rgba(254, 220, 19,0.6); */
+    background-color: rgba(95, 162, 13,0.6);
     opacity: 1;
 }
 
@@ -536,7 +553,8 @@ body>.navbar-collapse .nav li:hover .nav-link {
 body>.navbar-collapse .nav li.active .nav-link {
     color: #FFFFFF;
     opacity: 1;
-    background: rgba(254, 220, 19,0.6);
+    /* background: rgba(254, 220, 19,0.6); */
+    background-color: rgba(95, 162, 13,0.6);
 }
 
 .sidebar .nav li.separator,
