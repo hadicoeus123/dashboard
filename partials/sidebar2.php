@@ -25,18 +25,18 @@
                 </a>
             </li>
             <li>
-               <a class="nav-link" href="./user.html">
+             <a class="nav-link" href="./user.html">
                 <i class="nc-icon nc-bell-55"></i>
                 <p>Staff</p>
             </a>
-            </li>
-            <li class="nav-item active active-pro">
-                <a class="nav-link active" href="javascript:;">
-                    <i class="nc-icon nc-alien-33"></i>
-                    <p>Get eKomi Pro</p>
-                </a>
-            </li>
-        </ul>
+        </li>
+        <li class="nav-item active active-pro">
+            <a class="nav-link active" href="javascript:;">
+                <i class="nc-icon nc-alien-33"></i>
+                <p>Get eKomi Pro</p>
+            </a>
+        </li>
+    </ul>
     
-    </div>
+</div>
 </div>

@@ -42,7 +42,7 @@
 }
 
 
- .scaleDiv:hover { 
+.scaleDiv:hover { 
 
     transform: scale(1.1);
 }
@@ -71,17 +71,17 @@
 
 
 .container1 {
-   
+ 
     width: 100%;
-  }
-  
-  .image {
+}
+
+.image {
     display: block;
     width: 100%;
     height: auto;
-  }
-  
-  .overlay {
+}
+
+.overlay {
     position: absolute;
     bottom: 0;
     height: 100%;
@@ -89,14 +89,14 @@
     opacity: 1;
     transition: .5s ease;
     background-color: rgba(95, 162, 13,0.4);
-  }
-  
-  .container1:hover .overlay {
+}
+
+.container1:hover .overlay {
     opacity: 1;
     background-color: rgba(95, 162, 13,0.6);
-  }
-  
-  .text {
+}
+
+.text {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -104,7 +104,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-  }
+}
 
 .sampleDiv{
     width: 100%;
@@ -139,7 +139,7 @@ img{
 
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
-background-color: transparent;
+    background-color: transparent;
 }
 
 
