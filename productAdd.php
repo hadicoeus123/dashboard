@@ -1,4 +1,4 @@
-﻿<?php include 'partials/header1.php' ?>
+﻿<?php include 'partials/header.php' ?>
 <body>
     <div class="wrapper">
       <?php include 'partials/sidebar2.php' ?>
@@ -14,7 +14,7 @@
                     <div id="first">
                         <div class="recordset">
                             <div class="fieldRow clearfix">
-                                <div class="col-md-3">
+                                <div class="col-md-2">
                                     <div id="div_id_stock_1_service" class="form-group">
                                         <label for="id_stock_1_product" class="control-label  requiredField">
                                             Product<span class="asteriskField">*</span>
@@ -23,7 +23,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-2">
                                     <div id="div_id_stock_1_unit" class="form-group">
                                         <label for="id_stock_1_unit" class="control-label  requiredField">
                                             Unit<span class="asteriskField">*</span>
@@ -32,7 +32,7 @@
                                             <option value="1">1/2liter</option></select></div>
                                         </div>
                                     </div>
-                                    <div class="col-md-3">
+                                    <div class="col-md-2">
                                         <div id="div_id_stock_1_quantity" class="form-group">
                                             <label for="id_stock_1_quantity" class="control-label  requiredField">
                                                 Quantity<span class="asteriskField">*</span>
@@ -45,4 +45,4 @@
                     </div>
                 </div>
             </div>
-            <?php include 'partials/footer1.php' ?>
+            <?php include 'partials/footer.php' ?>
