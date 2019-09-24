@@ -1,9 +1,9 @@
-﻿<?php include 'partials/header.php' ?>
+﻿<?php include '../partials/header.php' ?>
 <body>
     <div class="wrapper">
-      <?php include 'partials/sidebar2.php' ?>
+      <?php include '../partials/sidebar.php' ?>
       <div class="main-panel">
-         <?php include 'partials/navbar.php' ?>
+         <?php include '../partials/navbar.php' ?>
          <div class="row" style="margin: 50px;">
             <h2>Welcome to the eKomi Product Manager</h2>
         </div>
@@ -36,7 +36,8 @@
                                         <div id="div_id_stock_1_quantity" class="form-group">
                                             <label for="id_stock_1_quantity" class="control-label  requiredField">
                                                 Quantity<span class="asteriskField">*</span>
-                                            </label><div class="controls "><input class="numberinput form-control" id="id_stock_1_quantity" name="stock_1_quantity" step="0.01" type="number" /> </div>
+                                            </label><div class="controls ">
+                                            <input class="numberinput form-control" id="id_stock_1_quantity" name="stock_1_quantity" step="0.01" type="number" /> </div>
                                         </div>
                                     </div>
                                 </div>
@@ -45,4 +46,4 @@
                     </div>
                 </div>
             </div>
-            <?php include 'partials/footer.php' ?>
+            <?php include '../partials/footer.php' ?>

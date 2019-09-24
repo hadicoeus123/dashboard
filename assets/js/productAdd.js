@@ -39,7 +39,7 @@
               btnPlus.css({
                   'float': 'right',
                   'border': '0px',
-                  'background-image': 'url("img/add.png")',
+                  'background-image': 'url("../img/add.png")',
                   'background-position': 'center center',
                   'background-repeat': 'no-repeat',
                   'height': '25px',
@@ -104,7 +104,7 @@
               btnMinus.css({
                   'float': 'right',
                   'border': '0px',
-                  'background-image': 'url("img/remove.png")',
+                  'background-image': 'url("../img/remove.png")',
                   'background-position': 'center center',
                   'background-repeat': 'no-repeat',
                   'height': '25px',

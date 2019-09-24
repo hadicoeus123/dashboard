@@ -1,12 +1,12 @@
-<?php include 'partials/header.php' ?>
+<?php include '../partials/header.php' ?>
 <body>
     <div class="wrapper">
-        <?php include 'partials/sidebar.php' ?>
+        <?php include '../partials/sidebar.php' ?>
         <div class="main-panel">
-            <?php include 'partials/navbar.php' ?>
+            <?php include '../partials/navbar.php' ?>
             <div class="row" style="margin: 50px;">
                 <div class="container1 col-md-4">
-                    <img src="img/img1.jpg" class="image img-thumbnail scaleDiv">
+                    <img src="../assets/img/img1.jpg" class="image img-thumbnail scaleDiv">
                     <div class="overlay">
                         <div class="text">
                             <h2>Heading</h2>
@@ -15,7 +15,7 @@
                     </div>
                 </div>
                 <div class=" container1 col-md-4">
-                    <img src="img/img2.jpg" class="image img-thumbnail scaleDiv">
+                    <img src="../assets/img/img2.jpg" class="image img-thumbnail scaleDiv">
                     <div class="overlay">
                       <div class="text">
                         <h2>Heading</h2>
@@ -24,7 +24,7 @@
                 </div>
             </div>
             <div class="container1 col-md-4">
-                <img src="img/img3.jpg" class="image img-thumbnail scaleDiv">
+                <img src="../assets/img/img3.jpg" class="image img-thumbnail scaleDiv">
                 <div class="overlay">
                     <div class="text">
                         <h2>Heading</h2>
@@ -53,4 +53,4 @@
         </div>
         <br>
         <br>
-        <?php include 'partials/footer.php' ?>
+        <?php include '../partials/footer.php' ?>

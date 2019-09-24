@@ -12,7 +12,7 @@
             <li class="nav-item dropdown" style="margin-right: 50px;">
                 <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
                 style="border: 1px solid #59980b; color: #59980b;">
-                <img src="img/dd.png" width="32" height="32">
+                <img src="../assets/img/dd.png" width="32" height="32">
             </button>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="#">Profile</a>

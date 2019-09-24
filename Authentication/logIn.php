@@ -20,7 +20,8 @@ try {
 
     $conn->exec($sql);
     if ($user["count"] > 0) {
-        header('location: http://localhost/dashboard/index.php');
+            header('location: http://localhost/dashboard/view/index.php');
+
     } else {
        echo "Invalid User Data Inserted!!";
     }

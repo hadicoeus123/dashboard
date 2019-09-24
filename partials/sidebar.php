@@ -1,30 +1,30 @@
-<div class="sidebar" data-image="./img/b1.png" data-color="grey">
+<div class="sidebar" data-image="../assets/img/b1.png" data-color="grey">
     <div class="sidebar-wrapper">
         <div class="logo">
             <a href="javascript:;" class="simple-text">
-                <img src="./img/header.png">
+                <img src="../assets/img/header.png">
             </a>
         </div>
         <ul class="nav">
-            <li class="nav-item active">
+            <li class="nav-item <?php echo (strpos($_SERVER['REQUEST_URI'], 'index.php') !== FALSE)? 'active' : '' ?>">
                 <a class="nav-link" href="index.php">
                     <i class="nc-icon nc-icon nc-paper-2"></i>
                     <p>Home</p>
                 </a>
             </li>
-            <li>
+            <li class="nav-item <?php echo (strpos($_SERVER['REQUEST_URI'], 'about.php') !== FALSE)? 'active' : '' ?>">
                 <a class="nav-link" href="about.php">
                     <i class="nc-icon nc-bell-55"></i>
                     <p>About</p>
                 </a>
             </li>
-            <li>
+            <li class="nav-item <?php echo (strpos($_SERVER['REQUEST_URI'], 'productAdd.php') !== FALSE)? 'active' : '' ?>">
                 <a class="nav-link" href="productAdd.php">
                     <i class="nc-icon nc-bell-55"></i>
                     <p>Product Manager</p>
                 </a>
             </li>
-            <li>
+            <li class="nav-item <?php echo (strpos($_SERVER['REQUEST_URI'], 'staff.php') !== FALSE)? 'active' : '' ?>">
              <a class="nav-link" href="#">
                 <i class="nc-icon nc-bell-55"></i>
                 <p>Staff</p>
