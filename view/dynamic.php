@@ -37,7 +37,7 @@
 
                 var node2 = document.createTextNode("Product Amount: ");
                 var input2 = document.createElement("input");
-                input1.setAttribute('type', 'number');
+                input2.setAttribute('type', 'number');
                 body.appendChild(node2);
                 body.appendChild(input2);
 
@@ -45,7 +45,7 @@
                 var node3 = document.createTextNode("Product Cost: ");
                 var input3 = document.createElement("input");
                 var input4 = document.createElement("br");
-                input1.setAttribute('type', 'number');
+                input3.setAttribute('type', 'number');
                 body.appendChild(node3);
                 body.appendChild(input3);
                 body.appendChild(input4);
