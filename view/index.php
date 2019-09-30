@@ -1,14 +1,15 @@
-<?php include '../partials/header.php' ?>
+<?php include '../partials/header.php'?>
 <body>
     <div class="wrapper">
         <?php include '../partials/sidebar.php' ?>
         <div class="main-panel">
             <?php include '../partials/navbar.php' ?>
-            <div class="row" style="margin: 50px;">
+            <br>
+            <div class="row" style="margin: 100px;">
                 <div class="container1 col-md-4">
                     <img src="../assets/img/img1.jpg" class="image img-thumbnail scaleDiv">
                     <div class="overlay">
-                        <div class="text">
+                     <div class="text">
                             <h2>Heading</h2>
                             <p>This is subtitle</p>
                         </div>

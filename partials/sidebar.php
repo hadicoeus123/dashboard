@@ -18,8 +18,8 @@
                     <p>About</p>
                 </a>
             </li>
-            <li class="nav-item <?php echo (strpos($_SERVER['REQUEST_URI'], 'productAdd.php') !== FALSE)? 'active' : '' ?>">
-                <a class="nav-link" href="productAdd.php">
+            <li class="nav-item <?php echo (strpos($_SERVER['REQUEST_URI'], 'dynamic.php') !== FALSE)? 'active' : '' ?>">
+                <a class="nav-link" href="dynamic.php">
                     <i class="nc-icon nc-bell-55"></i>
                     <p>Product Manager</p>
                 </a>
@@ -27,7 +27,7 @@
             <li class="nav-item <?php echo (strpos($_SERVER['REQUEST_URI'], 'staff.php') !== FALSE)? 'active' : '' ?>">
              <a class="nav-link" href="#">
                 <i class="nc-icon nc-bell-55"></i>
-                <p>Staff</p>
+                <p>Employee Data</p>
             </a>
         </li>
         <li class="nav-item active active-pro">
@@ -37,6 +37,5 @@
             </a>
         </li>
     </ul>
-    
 </div>
 </div>

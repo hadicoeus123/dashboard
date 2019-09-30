@@ -21,6 +21,9 @@ try {
     $conn->exec($sql);
     if ($user["count"] > 0) {
             header('location: http://localhost/dashboard/view/index.php');
+            session_start();
+            $_SESSION["user"] = $username;
+            $_SESSION["password"] = $password;
 
     } else {
        echo "Invalid User Data Inserted!!";

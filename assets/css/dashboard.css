@@ -27,7 +27,16 @@
     bottom: 0;
     width: 100%;
     margin: auto;
+
 }
+
+
+.div1{
+    padding: 50px;
+}
+
+
+
 
 .footerNav {
     margin-left: 15%;
@@ -2850,7 +2859,6 @@ fieldset[disabled] .form-control {
     top: 0;
     width: 1px;
     background-color: #DDDDDD;
-    card-body: "";
     position: absolute;
 }
 
@@ -4394,10 +4402,6 @@ fieldset[disabled] .form-control {
         display: none;
     }
 
-    .navbar-fixed-top {
-        -webkit-backface-visibility: hidden;
-    }
-
     #bodyClick {
         height: 100%;
         width: 100%;
@@ -4653,7 +4657,6 @@ fieldset[disabled] .form-control {
     display: inline-block;
     font: normal normal normal 14px/1 'nucleo-icons';
     font-size: inherit;
-    speak: none;
     text-transform: none;
     /* Better Font Rendering */
     -webkit-font-smoothing: antialiased;
